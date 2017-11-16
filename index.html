@@ -12,7 +12,7 @@
   <body>
     <div class="header">
       <div class="home-area">
-        <a href="#"><img src="img/logo.png" alt=""></a>
+        <a href="#"><img src="img/rottentomatoes.png" alt=""></a>
       </div>
       <div class="nav">
         <ul>
@@ -24,19 +24,32 @@
     </div>
     <div class="container">
       <div class="form">
-        <form id="add-movie">
-          <div class="field-wrap">
-            <input type="text" id="title" placeholder="Title">
+        <form class="nope" id="add-movie">
+          <h1>Add your least favorite movie :(</h1>
+
+          <div class="form-group top-row">
+            <div class="field-wrap">
+              <input type="text" id="title" placeholder="Title">
+            </div>
+
+            <div class="field-wrap">
+              <input type="number" id="year" placeholder="Year">
+            </div>
           </div>
-          <div class="field-wrap">
-            <input type="number" id="year" placeholder="Year">
+
+          <div class="form-group">
+            <div class="field-wrap">
+              <input type="text" id="studio" placeholder="Studio">
+            </div>
           </div>
-          <div class="field-wrap">
-            <input type="text" id="studio" placeholder="Studio">
+
+          <div class="form-group">
+            <div class="field-wrap">
+              <input type="number" id="tomatometer" placeholder="Your rating">
+            </div>
           </div>
-          <div class="field-wrap">
-            <input type="number" id="score" placeholder="Tomatometer">
-          </div>
+
+          <button type="submit">Add Movie</button>
         </form>
       </div>
       <table>

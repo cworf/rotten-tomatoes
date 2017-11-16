@@ -1,0 +1,154 @@
+.header {
+    background: #3a9326;
+    overflow: auto;
+    margin-bottom: 39px;
+    height: 154px;
+}
+
+.nav {
+    float: right;
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.home-area {
+    float: left;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav a {
+    color: #fff;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.form {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 50%;
+    margin-bottom: 40px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 40px;
+    line-height: 0.9;
+    color: #3a9128;
+    background: #ffffff80;
+    font-weight: lighter;
+    padding: 20px;
+}
+
+form.nope {
+  margin: auto;
+  max-width: 500px;
+  background: #3a9227;
+  color: #eaead7;
+  padding: 40px;
+  border-radius: 3px;
+  box-shadow: 0px 4px 9px #00000088;
+}
+
+.form-group {
+    margin-bottom: 40px;
+    position: relative;
+    overflow: auto;
+    width: 100%;
+}
+.top-row > div {
+    float: left;
+    width: 48%;
+}
+
+
+.field-wrap {
+    position: relative;
+}
+
+input {
+    background: transparent;
+    border: 2px solid #00592e;
+    border-radius: 3px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 13px;
+    font-size: 18px;
+    color: #fdee00;
+}
+
+.top-row > div:first-child {
+  margin-right: 4%;
+}
+button {
+    background: #9f0f10;
+    color: #eaebd7;
+    width: 100%;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 32px;
+    letter-spacing: 3px;
+    border: none;
+    border-radius: 3px;
+}
+
+input::placeholder {
+    color: yellow;
+}
+
+table {
+    width: 100%;
+    background: #e3efcd;
+}
+
+thead {
+    background: #007b00;
+    color: #eaeaea;
+    letter-spacing: 2px;
+}
+
+td:not(.title-cell) {
+    text-align: center;
+    padding: 5px;
+}
+
+tbody tr:nth-of-type(odd) {
+    background: #0000001f;
+}
+
+th {
+    padding: 6px;
+    font-weight: normal;
+}
